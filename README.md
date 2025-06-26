@@ -57,13 +57,14 @@ npm run dev
 
 -   **React**
 -   **Redux Toolkit**
--   **TypeScript**
 -   **Tailwind CSS**
+-   **TypeScript**
 -   **Electron** _(for demonstration purposes only)_
 
 ### **API**
 
 -   **Node.js**
+-   **TypeScript**
 -   **Express**
 -   **SQLite** _(via better-sqlite3)_
 -   **Celebrate (Joi)**
@@ -72,7 +73,7 @@ npm run dev
 -   **Swagger UI**
 -   **Docker**
 
-### **Security**
+### **Security & Cryptography**
 
 -   **Argon2id**
 -   **AES-GCM**
