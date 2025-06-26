@@ -2,7 +2,7 @@
 	"name": "vault",
 	"private": true,
 	"scripts": {
-		"dev": "npm --prefix apps/electron run dev"
+		"dev": "npm --prefix electron run dev"
 	},
 	"devDependencies": {}
 }
