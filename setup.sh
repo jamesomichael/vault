@@ -6,7 +6,7 @@ git submodule update --init --recursive
 echo "Installing dependencies..."
 npm install --prefix api
 npm install --prefix ui
-npm install --prefix electron
+npm install
 
 echo "Generating JWT secret..."
 JWT_SECRET=$(openssl rand -hex 32)

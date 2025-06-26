@@ -1,8 +1,20 @@
 {
 	"name": "vault",
-	"private": true,
+	"version": "1.0.0",
+	"description": "Zero-knowledge password management.",
+	"main": "dist/main.js",
 	"scripts": {
-		"dev": "npm --prefix electron run dev"
+		"dev": "concurrently -k -n UI,API,ELECTRON -c cyan,green,yellow \"npm --prefix ui run dev\" \"npm --prefix api run dev\" \"npm run build && electron .\"",
+		"build": "tsc"
 	},
-	"devDependencies": {}
+	"keywords": [],
+	"author": "James Michael",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/electron": "^1.6.12",
+		"@types/node": "^24.0.3",
+		"concurrently": "^9.2.0",
+		"electron": "^37.0.0",
+		"typescript": "^5.8.3"
+	}
 }
