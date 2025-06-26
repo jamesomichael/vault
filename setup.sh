@@ -8,15 +8,15 @@ npm install --prefix api
 npm install --prefix ui
 npm install --prefix electron
 
+echo "Generating JWT secret..."
+JWT_SECRET=$(openssl rand -hex 32)
 
-echo "Copying .env..."
-cp api/.env.local api/.env
-
-# echo "Generating JWT secret..."
-# JWT_SECRET=$(openssl rand -hex 32)
-
-# echo "Adding JWT secret to .env..."
-# echo "JWT_SECRET=\"$JWT_SECRET\"" >> "api/.env"
+echo "Creating .env for API..."
+cat <<EOF > api/.env
+NODE_ENV=development
+PORT=8080
+JWT_SECRET="$JWT_SECRET"
+EOF
 
 echo "Creating db folder..."
 mkdir -p api/db
