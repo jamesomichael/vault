@@ -58,13 +58,10 @@ npm run dev
 -   **React**
 -   **Redux Toolkit**
 -   **Tailwind CSS**
--   **TypeScript**
--   **Electron** _(for demonstration purposes only)_
 
 ### **API**
 
 -   **Node.js**
--   **TypeScript**
 -   **Express**
 -   **SQLite** _(via better-sqlite3)_
 -   **Celebrate (Joi)**
@@ -72,6 +69,11 @@ npm run dev
 -   **OpenAPI 3.0**
 -   **Swagger UI**
 -   **Docker**
+
+### **Shared**
+
+-   **TypeScript**
+-   **Electron** _(for demonstration purposes only)_
 
 ### **Security & Cryptography**
 
