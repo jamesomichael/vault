@@ -1,6 +1,6 @@
 [submodule "api"]
 	path = api
-	url = git@github.com:jamesomichael/vault-api.git
+	url = https://github.com/jamesomichael/vault-api.git
 [submodule "ui"]
 	path = ui
-	url = git@github.com:jamesomichael/vault-ui.git
+	url = https://github.com/jamesomichael/vault-ui.git
