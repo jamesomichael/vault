@@ -2,7 +2,7 @@
 
 Inspired by Bitwarden, _Vault_ is a secure, local-first password manager that follows a zero-knowledge architecture.
 
-This repository brings the UI and API together for demonstration purposes.
+This repository brings the [UI](https://github.com/jamesomichael/vault-ui) and [API](https://github.com/jamesomichael/vault-api) together for demonstration purposes.
 
 ![Vault](https://mexhjsdibsoshbepazwt.supabase.co/storage/v1/object/public/portfolio25//vault-items.png)
 
